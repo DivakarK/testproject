@@ -1,0 +1,8 @@
+<h1>My Service</h1>
+<ul>
+    <div ng-repeat="service in services">
+            <input type="checkbox" ng-model="service.selected"
+            > <span>{{service.title}}</span> <span>{{service.price}}</span> 
+    </div>
+    <span>Total:: {{total()}}</span>
+</ul> <br />

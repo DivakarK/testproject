@@ -1,0 +1,19 @@
+<p>Welcome</p>
+<p>
+  Person List
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <td>Name</td>
+      <td>Action</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="item in items">
+      <td>{{item.name}}</td>
+      <td><a href="/item.id">details</a></td>
+    </tr>
+  </tbody>
+</table>
